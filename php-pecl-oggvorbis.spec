@@ -7,9 +7,9 @@ Version:	0.2
 Release:	1
 License:	PHP
 Group:		Development/Languages/PHP
-Source0:	http://pear.php.net/get/%{_modname}-%{version}.tgz
+Source0:	http://pecl.php.net/get/%{_modname}-%{version}.tgz
 # Source0-md5:	b9337dc0a5d024c6b06f68391dc1ea7d
-URL:		http://pear.php.net/package/oggvorbis/
+URL:		http://pecl.php.net/package/oggvorbis/
 BuildRequires:	libogg-devel >= 1.0
 BuildRequires:	libtool
 BuildRequires:	libvorbis-devel >= 1.0

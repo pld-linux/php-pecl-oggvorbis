@@ -25,13 +25,13 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Fopen wrapper for OGG/Vorbis files. Decompress OGG data to PCM audio
 and vice-versa.
 
-This extension has in PEAR status: %{_status}.
+In PECL status of this package is: %{_status}.
 
 %description -l pl
 Wrapper funkcji fopen dla plików OGG/Vorbis. Dekompresuje OGG do
 formatu PCM audio oraz pozwala na kompresjê w drug± stronê.
 
-To rozszerzenie ma w PEAR status: %{_status}.
+To rozszerzenie ma w PECL status: %{_status}.
 
 %prep
 %setup -q -c

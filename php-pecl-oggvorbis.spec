@@ -10,9 +10,9 @@ Group:		Development/Languages/PHP
 Source0:	http://pecl.php.net/get/%{_modname}-%{version}.tgz
 # Source0-md5:	b9337dc0a5d024c6b06f68391dc1ea7d
 URL:		http://pecl.php.net/package/oggvorbis/
-BuildRequires:	libogg-devel >= 1.0
+BuildRequires:	libogg-devel >= 2:1.0
 BuildRequires:	libtool
-BuildRequires:	libvorbis-devel >= 1.0
+BuildRequires:	libvorbis-devel >= 1:1.0
 BuildRequires:	php-devel
 Requires:	php-common
 Obsoletes:	php-pear-%{_modname}

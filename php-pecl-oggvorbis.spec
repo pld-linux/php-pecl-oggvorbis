@@ -15,7 +15,7 @@ URL:		http://pecl.php.net/package/oggvorbis/
 BuildRequires:	libogg-devel >= 2:1.0
 BuildRequires:	libvorbis-devel >= 1:1.0
 BuildRequires:	php-devel >= 3:5.0.0
-BuildRequires:	rpmbuild(macros) >= 1.254
+BuildRequires:	rpmbuild(macros) >= 1.322
 %{?requires_php_extension}
 Requires:	%{_sysconfdir}/conf.d
 Obsoletes:	php-pear-%{_modname}

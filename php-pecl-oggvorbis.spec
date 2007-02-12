@@ -1,7 +1,7 @@
 %define		_modname	oggvorbis
 %define		_status		beta
 Summary:	%{_modname} - Ogg wrapper for Ogg/Vorbis files
-Summary(pl):	%{_modname} - wrapper Ogg dla plików Ogg/Vorbis
+Summary(pl.UTF-8):   %{_modname} - wrapper Ogg dla plikÃ³w Ogg/Vorbis
 Name:		php-pecl-%{_modname}
 Version:	0.2
 Release:	2
@@ -25,9 +25,9 @@ and vice-versa.
 
 In PECL status of this package is: %{_status}.
 
-%description -l pl
-Wrapper funkcji fopen dla plików Ogg/Vorbis. Dekompresuje Ogg do
-formatu PCM audio oraz pozwala na kompresjê w drug± stronê.
+%description -l pl.UTF-8
+Wrapper funkcji fopen dla plikÃ³w Ogg/Vorbis. Dekompresuje Ogg do
+formatu PCM audio oraz pozwala na kompresjÄ™ w drugÄ… stronÄ™.
 
 To rozszerzenie ma w PECL status: %{_status}.
 

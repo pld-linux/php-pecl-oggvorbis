@@ -1,7 +1,7 @@
 %define		_modname	oggvorbis
 %define		_status		beta
 Summary:	%{_modname} - Ogg wrapper for Ogg/Vorbis files
-Summary(pl.UTF-8):   %{_modname} - wrapper Ogg dla plików Ogg/Vorbis
+Summary(pl.UTF-8):	%{_modname} - wrapper Ogg dla plików Ogg/Vorbis
 Name:		php-pecl-%{_modname}
 Version:	0.2
 Release:	2

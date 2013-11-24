@@ -5,18 +5,19 @@ Summary:	%{modname} - Ogg wrapper for Ogg/Vorbis files
 Summary(pl.UTF-8):	%{modname} - wrapper Ogg dla plików Ogg/Vorbis
 Name:		%{php_name}-pecl-%{modname}
 Version:	0.2
-Release:	2
+Release:	3
 License:	PHP
 Group:		Development/Languages/PHP
 Source0:	http://pecl.php.net/get/%{modname}-%{version}.tgz
 # Source0-md5:	b9337dc0a5d024c6b06f68391dc1ea7d
 URL:		http://pecl.php.net/package/oggvorbis/
+BuildRequires:	%{php_name}-devel >= 3:5.0.0
 BuildRequires:	libogg-devel >= 2:1.0
 BuildRequires:	libvorbis-devel >= 1:1.0
-BuildRequires:	%{php_name}-devel >= 3:5.0.0
 BuildRequires:	rpmbuild(macros) >= 1.650
 %{?requires_php_extension}
-Requires:	php-common >= 4:5.0.4
+Requires:	php(core) >= 5.0.4
+Provides:	php(%{modname}) = %{version}
 Obsoletes:	php-pear-%{modname}
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
